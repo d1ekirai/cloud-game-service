@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es2017",                                  
+        "module": "ES2015",
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "noEmitOnError": true,
+        "removeComments": true,
+        "rootDir": "src/script"
+    },
+    
+}

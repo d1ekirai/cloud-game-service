@@ -1,0 +1,44 @@
+html {
+  font-size: 16px;
+}
+.container {
+  max-width: $containerWidth;
+  margin: 0 auto;
+  padding: 0 56px;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $darkBlue;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  font-family: $font;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+}
+
+.wrapper {
+  min-height: 100%; 
+  display: flex;
+  flex-direction: column;
+
+}
+.main {
+  flex: 1 1 auto;
+}
