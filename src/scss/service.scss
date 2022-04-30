@@ -1,0 +1,44 @@
+.service {
+  &__container {
+    justify-content: left;
+    align-items: left;
+    display: flex;
+  }
+
+  &__title {
+    margin-top: 389px;
+    font-family: $mainFont;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: auto;
+  }
+
+  &__text {
+    color: $gray;
+    margin-top: 90px;
+  }
+  &__text-bottom {
+    color: $gray;
+    margin: 0 auto;
+  }
+
+  &__button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $azure;
+    color: $azure;
+    margin-top: 90px;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: right;
+    width: 1100px;
+    margin-left:323px ;
+    margin-bottom: 300px;
+  }
+  &__content {
+   
+  }
+}

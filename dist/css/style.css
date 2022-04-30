@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
   font-family: AireExterior;
   font-display: swap;
@@ -120,7 +122,7 @@ h6 {
   margin-top: 80px;
 }
 
-.no-webp .header__container {
+.no-webp .header__container{
   background-image: url("../img/header.png"); }
 
 .header__container {
@@ -133,6 +135,47 @@ h6 {
           box-shadow: 0px 5px 29px rgba(82, 125, 139, 0.2509803922);
   border-radius: 15px;
   border: 0.5px solid #57D6FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__pre-title {
+  font-family: "Roboto";
+  color: #fff;
+}
+
+.header__title {
+  font-family: "AireExterior";
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 95px;
+  color: #fff;
+}
+
+.header__button {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-family: "AireExterior";
+  font-size: 1.5rem;
+  padding: 19px 89px 19px 89px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  background: -o-linear-gradient(225deg, transparent 15px, #fff 0);
+  background: linear-gradient(-135deg, transparent 15px, #fff 0);
 }
 
 .footer {
@@ -258,6 +301,8 @@ h6 {
 
 .about__link:first-child {
   margin-bottom: 50px;
+  color: #ABABAB;
+  font-size: 1.25rem;
 }
 
 .about__button {
@@ -281,4 +326,377 @@ h6 {
   border-radius: 10px;
 }
 
-.webp .header__container { background-image: url(../img/header.webp); }
+.start__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.start__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.start__icon-block {
+  text-align: center;
+}
+
+.start__icon-block:not(:last-child) {
+  margin-right: 70px;
+  position: relative;
+}
+
+.start__icon-block:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background-color: #00C5FF;
+  top: 40px;
+  right: -70px;
+}
+
+.start__title {
+  position: relative;
+  color: #fff;
+  font-family: "AireExterior";
+  font-size: 2.5rem;
+}
+
+.start__title::before {
+  content: "Швидкий старт";
+  position: absolute;
+  font-family: "Roboto";
+  font-size: 1rem;
+  right: 0;
+  top: -30px;
+  color: #57D6FF;
+}
+
+.start__title::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  left: 0;
+  top: -20px;
+  background-color: #57D6FF;
+}
+
+.start__text {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.start__button {
+  background-color: transparent;
+  border: none;
+  color: #00C5FF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  border-bottom: 1px solid #00C5FF;
+}
+
+.service__container {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service__title {
+  margin-top: 389px;
+  font-family: "AireExterior";
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-right: auto;
+}
+
+.service__text {
+  color: #ABABAB;
+  margin-top: 90px;
+}
+
+.service__text-bottom {
+  color: #ABABAB;
+  margin: 0 auto;
+}
+
+.service__button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #00C5FF;
+  color: #00C5FF;
+  margin-top: 90px;
+}
+
+.service__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  width: 1100px;
+  margin-left: 323px;
+  margin-bottom: 300px;
+}
+
+.sub__pre-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #00C5FF;
+  font-family: "Roboto";
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sub__pre-title-text {
+  color: #00C5FF;
+  font-family: "Roboto";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 155px;
+}
+
+.sub_title {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 190px;
+  font-family: "AireExterior";
+  font-size: 2.5em;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.sub__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sub__content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+}
+
+.sub__left {
+  background-color: #1F2631;
+  border-radius: 5px;
+  margin-right: 10px;
+  height: 543px;
+}
+
+.sub__title-left {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 2.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 42px;
+  margin-left: 47px;
+}
+
+.sub__amount-left {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 228px;
+  margin-left: 47px;
+}
+
+.sub__text-left {
+  color: #ABABAB;
+  font-size: 1.3rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin-right: 42px;
+  margin-left: 47px;
+}
+
+.sub__button-left {
+  background-color: #00C5FF;
+  border: none;
+  cursor: pointer;
+  width: 321px;
+  height: 70px;
+  border-radius: 5px;
+  margin-bottom: 47px;
+  color: #141C24;
+  font-size: 1.5rem;
+  font-family: "AireExterior";
+}
+
+.sub__mid {
+  background-color: #00C5FF;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.sub__title-mid {
+  font-size: 2.25rem;
+  margin-right: 42px;
+  margin-left: 47px;
+}
+
+.sub__amount-mid {
+  font-size: 1.5rem;
+  margin-right: 156px;
+  margin-left: 25px;
+}
+
+.sub__text-mid {
+  font-size: 1.3rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin-right: 42px;
+  margin-left: 47px;
+}
+
+.sub__button-mid {
+  width: 321px;
+  height: 70px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #141C24;
+  margin-bottom: 47px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "AireExterior";
+}
+
+.sub__right {
+  background-color: #1F2631;
+  border-radius: 5px;
+}
+
+.sub__title-right {
+  font-size: 2.25rem;
+  color: #fff;
+  margin-right: 42px;
+  margin-left: 47px;
+}
+
+.sub__amount-right {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-right: 168px;
+  margin-left: 30px;
+}
+
+.sub__text-right {
+  font-size: 1.3rem;
+  color: #ABABAB;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin-right: 42px;
+  margin-left: 47px;
+}
+
+.sub__button-right {
+  background-color: #00C5FF;
+  border: none;
+  cursor: pointer;
+  width: 321px;
+  height: 70px;
+  border-radius: 5px;
+  margin-bottom: 47px;
+  color: #141C24;
+  font-size: 1.5rem;
+  font-family: "AireExterior";
+}
+
+.sub__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.map__title-pre {
+  color: #57D6FF;
+  font-family: "Roboto";
+  font-size: 0.9rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 10px;
+}
+
+.map__title {
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: "AireExterior";
+  padding-top: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+.map__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.webp .header__container{ background-image: url(../img/header.webp); }

@@ -1,0 +1,31 @@
+.map {
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__content {
+  }
+
+  &__title-pre {
+    color: $blue;
+    font-family: $font;
+    font-size: 0.9rem;
+    justify-content: center;
+   margin-left: 10px;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: $mainFont;
+    padding-top: 0;
+    justify-content: center;
+    margin: 0;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+  }
+}

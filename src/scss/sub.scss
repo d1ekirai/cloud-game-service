@@ -1,0 +1,170 @@
+.sub {
+  &__pre-title {
+      display: flex;
+      color: $azure;
+      font-family: $font;
+      display: flex;
+      justify-content: center;
+  }
+
+  &__line {
+  }
+
+  &__pre-title-text {
+      color: $azure;
+      font-family: $font;
+      display: flex;
+      justify-content: center;
+      margin-top: 155px;
+     
+  }
+  &_title {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+    font-family: $mainFont;
+    font-size: 2.5em;
+    margin: 0;
+    margin-top: 10px;
+    
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__content {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 70px;
+  }
+
+  &__left {
+    background-color: $grayBlue;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 543px;
+  }
+
+  &__title-left {
+    color: #fff;
+    font-family: $font;
+    font-size: 2.25rem;
+    display: flex;
+    margin-right: 42px;
+    margin-left: 47px;
+  }
+
+  &__amount-left {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 228px;
+    margin-left: 47px;
+  }
+
+  &__text-left {
+    color: $gray;
+    font-size: 1.3rem;
+    flex: 1 1 auto;
+    margin-right: 42px;
+    margin-left: 47px;
+  }
+
+  &__button-left {
+    background-color: $azure;
+    border: none;
+    cursor: pointer;
+    width: 321px;
+    height: 70px;
+    border-radius: 5px;
+    margin-bottom: 47px;
+    color: $darkBlue;
+    font-size: 1.5rem;
+    font-family: $mainFont;
+  }
+
+  &__mid {
+    background-color: $azure;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  &__title-mid {
+    font-size: 2.25rem;
+    margin-right: 42px;
+    margin-left: 47px;
+  }
+
+  &__amount-mid {
+    font-size: 1.5rem;
+    margin-right: 156px;
+    margin-left: 25px;
+  }
+
+  &__text-mid {
+    font-size: 1.3rem;
+    flex: 1 1 auto;
+    margin-right: 42px;
+    margin-left: 47px;
+  }
+
+  &__button-mid {
+    width: 321px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: $darkBlue;
+    margin-bottom: 47px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: $mainFont;
+  }
+
+  &__right {
+    background-color: $grayBlue;
+    border-radius: 5px;
+  }
+
+  &__title-right {
+    font-size: 2.25rem;
+    color: #fff;
+    margin-right: 42px;
+    margin-left: 47px;
+  }
+
+  &__amount-right {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: 168px;
+    margin-left: 30px;
+  }
+
+  &__text-right {
+    font-size: 1.3rem;
+    color: $gray;
+    flex: 1 1 auto;
+    margin-right: 42px;
+    margin-left: 47px;
+  }
+
+  &__button-right {
+    background-color: $azure;
+    border: none;
+    cursor: pointer;
+    width: 321px;
+    height: 70px;
+    border-radius: 5px;
+    margin-bottom: 47px;
+    color: $darkBlue;
+    font-size: 1.5rem;
+    font-family: $mainFont;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
